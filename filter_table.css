@@ -1,3 +1,56 @@
+.panel-success > .panel-heading {
+	background-color:#3c9a5f !important;
+	border:0px !important;
+} 
+.panel-success {
+	border:none !important; 
+	border-color:#3c9a5f !important;
+}
+.label-success {
+	background-color:#3c9a5f !important;
+}
+.badge {
+	background-color:transparent !important;
+	border:none !important;
+	color:#b41336 !important;
+}
+.label {
+	background-color:#3c9a5f !important;
+	border:none !important;
+}
+
+.panel-heading h3{
+	color:#fff !important;
+}
+.panel-heading{
+	border-top-left-radius:0px !important;
+	border-top-right-radius:0px !important;
+	border:none !important;
+}
+.list-group-item:first-child {
+	border-top-left-radius:0px !important;
+	border-top-right-radius:0px !important;
+}
+.list-group-item:last-child {
+	border-TOP: 1px solid #ddd !important;
+	border-bottom-left-radius:0px !important;
+	border-bottom-right-radius:0px !important;
+}
+
+.list-group-item a{
+	color:#161a22 !important;
+}
+.list-group-item h4{
+	color:#161a22 !important;
+}
+.modal-content{
+	color:#161a22 !important;
+}
+.modal-header h4{
+	color:#161a22 !important;
+}
+
+
 .filterable {
     margin-top: 15px;
 }
@@ -6,6 +59,7 @@
 }
 .filterable .filters input[disabled] {
     background-color: transparent;
+	
     border: none;
     cursor: auto;
     box-shadow: none;
